@@ -50,7 +50,7 @@ module.exports = function(grunt) {
 				files : [
 					'assets/js/**/*.js'
 				],
-				tasks : ['jshint','concat:js'],
+				tasks : ['jshint','concat:mainjs'],
 				options : {
 					spawn : true,
 					interrupt : false,
